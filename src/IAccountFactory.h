@@ -10,10 +10,16 @@
 
 using namespace std;
 
+/**
+ * The Account Factory interface declares the factory method that is supposed to return an
+ * object of a Account class. The Account's subclasses usually provide the
+ * implementation of this method.
+ */
 class IAccountFactory {
 public:
     virtual ~IAccountFactory(){};
 
+    // Factory method to create an Account object
     virtual IBankAccount *createBankAccount(string accountType) const = 0;
 };
 

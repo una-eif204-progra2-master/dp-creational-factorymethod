@@ -11,6 +11,9 @@
 
 using namespace std;
 
+/**
+ * Concrete Personal Account provide various implementations of the Bank Account interface.
+ */
 class PersonalAccount : public IBankAccount {
 private:
     float rate;

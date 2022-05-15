@@ -8,6 +8,9 @@
 
 #include "IBankAccount.h"
 
+/**
+ * Concrete Business Account provide various implementations of the Bank Account interface.
+ */
 class BusinessAccount : public IBankAccount {
 private:
     float rate;

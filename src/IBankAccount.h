@@ -5,7 +5,10 @@
 #ifndef MY_PROJECT_NAME_IBANKACCOUNT_H
 #define MY_PROJECT_NAME_IBANKACCOUNT_H
 
-
+/**
+ * The Bank Account interface declares the operations that all concrete accounts must
+ * implement.
+ */
 class IBankAccount {
 public:
     virtual ~IBankAccount() {}
