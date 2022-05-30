@@ -19,3 +19,5 @@ float BusinessAccount::getRate() const {
 void BusinessAccount::setRate(float rate) {
     BusinessAccount::rate = rate;
 }
+
+BusinessAccount::BusinessAccount(float rate) : rate(rate) {}

@@ -16,3 +16,5 @@ IBankAccount *Factory::createBankAccount(string accountType) const {
 
     return nullptr;
 }
+
+Factory::Factory() {}

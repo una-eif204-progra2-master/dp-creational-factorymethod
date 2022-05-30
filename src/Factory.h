@@ -10,10 +10,12 @@
 
 /**
  * Concrete Factory override the factory method in order to change the
- * resulting account's type.
+ * resulting account's type
  */
 class Factory : public IAccountFactory {
 public:
+    Factory();
+
     IBankAccount *createBankAccount(string accountType) const override;
 };
 

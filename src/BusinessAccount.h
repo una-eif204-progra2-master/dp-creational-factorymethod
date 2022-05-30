@@ -17,6 +17,8 @@ private:
 public:
     BusinessAccount();
 
+    BusinessAccount(float rate);
+
     float getRate() const;
 
     void setRate(float rate);
